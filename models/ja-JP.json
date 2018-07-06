@@ -1,0 +1,50 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "先生",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "もうありません",
+            "もうないです",
+            "もういいです",
+            "ありがとう",
+            "さようなら",
+            "ありません"
+          ]
+        },
+        {
+          "name": "AskEventIntent",
+          "samples": [
+            "今月はどんな行事がありますか",
+            "今月のイベントを教えて",
+            "今月はどんなイベントがありますか"
+          ]
+        },
+        {
+          "name": "AskVacationIntent",
+          "samples": [
+            "夏休みはいつから始まりますか",
+            "夏休みはいつからですか"
+          ]
+        },
+        {
+          "name": "AskLibraryIntent",
+          "samples": [
+            "図書室は何階ですか",
+            "図書室はどこですか"
+          ]
+        }
+      ]
+    }
+  }
+}
